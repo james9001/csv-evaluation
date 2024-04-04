@@ -3,7 +3,7 @@ import { calculateExpression } from "./calculate-expression";
 
 const fileContents = fs.readFileSync("input.csv", {encoding: "utf-8"})
 const lines = fileContents.split(/\r\n|\r|\n/);
-const constants: number[] = lines[0].split(",").map(constantString => parseInt(constantString));
+const constants: number[] = lines[0].split(",").map(constantString => +constantString);
 const expressionsLines: string[][] = [];
 lines.slice(1).forEach(line => {
     expressionsLines.push(line.split(","))
