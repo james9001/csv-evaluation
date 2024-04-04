@@ -1,0 +1,19 @@
+{
+  "name": "csv-evaluation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james9001/csv-evaluation.git"
+  },
+  "author": "james9001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james9001/csv-evaluation/issues"
+  },
+  "homepage": "https://github.com/james9001/csv-evaluation#readme"
+}
