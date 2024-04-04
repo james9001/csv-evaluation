@@ -65,5 +65,10 @@ describe('Calculate Expression Tests', () => {
         const result = calculateExpression(constants, expression);
         expect(result).toEqual(9);
     })
+    it('test', async () => {
+        const expression = "B + E + D / E";
+        const result = calculateExpression(constants, expression);
+        expect(result).toEqual(9);
+    })
 
 })
