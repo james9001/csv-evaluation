@@ -1,3 +1,5 @@
 #!/bin/sh
 
-node dist/index.js
+npm run build
+
+node dist/index.js --hello-world
